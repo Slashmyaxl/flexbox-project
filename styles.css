@@ -1,0 +1,240 @@
+*{
+    background-color: black;
+}
+
+body {
+    display: flex;
+    width: 80vw;
+    min-width: 720px;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    background-color: white;
+}
+
+.header {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 12px 80px 60px;
+}
+
+.top-line {
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    background-color: inherit;
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+    padding: 0;
+    margin: 0;
+}
+
+.top-right {
+    background-color: inherit;
+    display: flex;
+    gap: 12px;
+    margin-left: 20px;
+}
+
+.hero {
+    background-color: inherit;
+    font-size: 48px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.about {
+    background-color: inherit;
+    display: flex;
+    font-size: 16px;
+    font-weight: 100;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1 1 260px;
+}
+
+.about h1, .about p {
+    background-color: inherit;
+    padding: 2px 0;
+    margin: 0;
+}
+
+.hero-image {
+    background-color: inherit;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 50px;
+    overflow: hidden;
+    
+}
+
+.hero-image > img {
+    height: 200px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px 80px;
+}
+
+.content-photos {
+    background-color: inherit;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.photo-container {
+    background-color: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    width: 180px;
+    overflow: hidden;
+}
+
+.photo-container p {
+    background-color: inherit;
+    font-size: 16px;
+}
+
+.photo-container img {
+    height: 180px;
+    border: 3px solid #3882f6;
+    border-radius: 5px;
+}
+
+.content h2 {
+    background-color: inherit;
+    font-size: 22px;
+    color: #1f2937;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e5e7eb;
+    padding: 30px 160px;
+    margin: 0;
+}
+
+.quote-content {
+    background-color: inherit;
+    text-align: left;
+    color: #1f2937aa;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 24px;
+}
+
+.quote-credit {
+    background-color: inherit;
+    font-size: 20px;
+    color: #1f2937ee;
+    font-weight: bold;
+    align-self: flex-end;
+    margin: 0;
+}
+
+.content-end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 80px;
+    background-color: lightyellow;
+}
+
+.banner {
+    background-color: #3882f6;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.subscribe {
+    background-color: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.subscribe h3, .subscribe p {
+    background-color: inherit;
+    margin: 0;
+    padding: 1px 0;
+}
+
+button {
+    width: 100px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 6px;
+    padding: 5px 0;
+}
+
+#button-1 {
+    border: none;
+    padding: 6px 0;
+}
+
+#button-2 {
+    border: 2px solid #f9faf8;
+    margin-left: 30px;
+}
+
+ul {
+    background-color: inherit;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top-right a {
+    background-color: #1f2937;
+    text-decoration: none;
+    color: #e5e7eb;
+    padding: 8px 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
+
+footer h4 {
+    background-color: inherit;
+}
