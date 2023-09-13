@@ -1,14 +1,15 @@
 *{
     background-color: black;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     display: flex;
     width: 80vw;
-    min-width: 720px;
+    min-width: 600px;
     margin: 0 auto;
     flex-direction: column;
-    justify-content: center;
     font-family: "Roboto", sans-serif;
     background-color: white;
 }
@@ -19,7 +20,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 12px 80px 60px;
 }
 
 .top-line {
@@ -29,22 +29,27 @@ body {
     background-color: #1f2937;
     justify-content: space-between;
     align-items: center;
+    max-height: 60px;
+    width: 100%;
 }
 
 .logo {
-    background-color: inherit;
-    font-size: 24px;
-    font-weight: bold;
-    color: #f9faf8;
-    padding: 0;
-    margin: 0;
+    max-height: 60px;
+    width: 120px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    height: 60px;
 }
 
 .top-right {
     background-color: inherit;
     display: flex;
-    gap: 12px;
-    margin-left: 20px;
+    height: 100%;
 }
 
 .hero {
@@ -53,7 +58,9 @@ body {
     font-weight: bolder;
     display: flex;
     justify-content: space-between;
+    gap: 40px;
     margin-top: 40px;
+    padding: 0 60px 40px;
 }
 
 .about {
@@ -75,15 +82,17 @@ body {
 .hero-image {
     background-color: inherit;
     display: flex;
-    justify-content: flex-end;
     align-items: center;
-    margin-left: 50px;
-    overflow: hidden;
-    
+    justify-content: center;
+    width: 70%;
 }
 
 .hero-image > img {
-    height: 200px;
+    flex-basis: auto;
+    max-height: 80%;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 3%;
 }
 
 
@@ -114,19 +123,21 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     text-align: center;
-    width: 180px;
+    width: 200px;
     overflow: hidden;
 }
 
 .photo-container p {
     background-color: inherit;
-    font-size: 16px;
+    font-size: 14px;
+    margin-top: 4px;
 }
 
 .photo-container img {
-    height: 180px;
+    height: 220px;
+    object-fit: cover;
     border: 3px solid #3882f6;
-    border-radius: 5px;
+    border-radius: 5%;
 }
 
 .content h2 {
@@ -143,7 +154,7 @@ body {
     flex-direction: column;
     justify-content: center;
     background-color: #e5e7eb;
-    padding: 30px 160px;
+    padding: 30px 170px;
     margin: 0;
 }
 
@@ -225,14 +236,19 @@ ul {
     background-color: #1f2937;
     text-decoration: none;
     color: #e5e7eb;
-    padding: 8px 0;
+    padding: 20px 16px;
+}
+
+.top-right a:hover {
+    background-color: hsla(320, 80%, 80%, 0.9)
 }
 
 footer {
     display: flex;
     justify-content: center;
-    background-color: #1f2937;
+    background-color: black;
     color: #e5e7eb;
+    padding: 4px;
 }
 
 footer h4 {
