@@ -5,6 +5,4 @@ In this second project of my curriculum, I will demonstrate what I've learned in
 
 **Image Credit**
 
-- Cat Comic: Simon Tofield (simonscat.com)
-
-All photos on this page were downloaded from www.pexels.com, a free photo sharing website.
+- Cat Comic: Landysh (lingstov.com)
