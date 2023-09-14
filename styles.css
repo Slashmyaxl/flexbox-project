@@ -140,7 +140,7 @@ ul {
     flex-direction: column;
     align-items: center;
     background-color: white;
-    padding: 20px 80px;
+    padding: 20px 18px;
     font-size: 1.4em;
 }
 
@@ -159,7 +159,6 @@ ul {
     justify-content: flex-start;
     text-align: center;
     width: 200px;
-    overflow: hidden;
 }
 
 .photo-container p {
@@ -172,7 +171,7 @@ ul {
     height: 220px;
     object-fit: cover;
     border: 3px solid #3882f6;
-    border-radius: 5%;
+    border-radius: 5%;  
 }
 
 .content h2 {
@@ -216,7 +215,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 80px;
+    padding: 44px 76px;
     background-color: lightyellow;
 }
 
@@ -226,8 +225,9 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px;
+    padding: 24px 18px;
     border-radius: 10px;
+    gap: 10px;
 }
 
 .subscribe {
@@ -235,15 +235,17 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 70%;
+    flex: 0 1 auto;
 }
 
 .subscribe h3, .subscribe p {
     background-color: inherit;
-    margin: 0;
-    padding: 1px 0;
+    padding: 2px 0;
 }
 
 button {
+    min-width: 52px;
     width: 100px;
     background-color: #3882f6;
     color: #f9faf8;
@@ -259,8 +261,9 @@ button {
 
 #button-2 {
     border: 2px solid #f9faf8;
-    margin-left: 30px;
     padding: 2px;
+    flex: 0 3 auto;
+    min-width: 44px;
 }
 
 footer {
@@ -275,16 +278,30 @@ footer h4 {
     background-color: inherit;
 }
 
-@media (max-width: 740px) {
+@media (max-width: 760px) {
     .header {
-        padding: 0 30px;
+        padding: 0 18px;
     }
 
     .quote {
-        padding: 30px 100px;
+        padding: 30px 80px;
     }
 
     body {
         width: 90vw;
+    }
+}
+
+@media (max-width: 580px) {
+    .photo-container {
+        width: 156px;
+    }
+
+    .photo-container img {
+        height: 172px;
+    }
+
+    .about h1 {
+        font-size: 26px
     }
 }
